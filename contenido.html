@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contenido </title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1565c0;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        main {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        img {
+            width: 500px;
+            max-width: 100%;
+        }
+
+        iframe {
+            width: 560px;
+            height: 315px;
+            max-width: 100%;
+            border: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body id="inicio">
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>contenido </h1>
+        <p>Imagen y video de YouTube</p>
+    </header>
+
+    <!-- MENÚ CON MARCADORES -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#imagen">Imagen</a>
+        <a href="#video">Video</a>
+        <a href="#informacion">Información</a>
+    </nav>
+
+    <main>
+
+        <!-- MARCADOR DE IMAGEN -->
+        <section id="imagen">
+            <h2>1. Imagen</h2>
+
+            <p>
+                A continuación se muestra una imagen relacionada
+                con el paisajeurbano:
+            </p>
+
+            <img
+                src="img.png"
+                alt="paisaje urbano">
+
+            <p>
+                <a href="#inicio">⬆ Volver al inicio</a>
+            </p>
+        </section>
+
+        <!-- MARCADOR DE VIDEO -->
+        <section id="video">
+            <h2>2. Video de YouTube</h2>
+
+            <p>
+                A continuación se muestra un video de YouTube
+                incrustado en la página:
+            </p>
+
+            <iframe
+            <video width="640" height="360" controls>
+  <source src="tu-video.mp4" type="video/mp4">
+  Tu navegador no soporta la etiqueta de video.
+</video>
+                
+                
+            
+            </iframe>
+
+            <p>
+                <a href="#inicio">⬆ Volver al inicio</a>
+            </p>
+        </section>
+
+        <!-- MARCADOR DE INFORMACIÓN -->
+        <section id="informacion">
+            <h2>3. Información</h2>
+
+            <p>
+                HTML5 nos permite incorporar diferentes tipos de
+                contenido multimedia asi tambien como imagenes dentro de una página web.
+            </p>
+
+            <p>
+                La etiqueta <strong>&lt;img&gt;</strong> permite
+                mostrar imágenes, mientras que
+                <strong>&lt;iframe&gt;</strong> permite incrustar
+                contenido externo, como videos de YouTube.
+            </p>
+
+            <p>
+                <a href="#inicio">⬆ Volver al inicio</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>contenido en- HTML5</p>
+    </footer>
+
+</body>
+</html>
